@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snack Survey</title>
+    <script src="survey.js"></script>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body class="container">
+    <h1>Super Snack Survey</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9E3W-S5NH4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <form id="survey-form" onsubmit="myFunction()">
+        <div id="form">
+            <div.a>
+                <div id="persinfo">
+                    <label for="fname">First Name: </label>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+                <div id="persinfo">  
+                    <label for="lname">Last Name: </label>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+                <div id="persinfo">  
+                    <label for="Email">Email: </label>
+                    <input type="email" id="Email" name="Email" required>
+                </div>
+            </div.a>
+            <div.b>
+                <p>What is your favorite cookie flavor?</p>
+                <input type="radio" id="chocochip" checked>
+                <label for="chocochip">Chocolate Chip</label><br>
+                <input type="radio" id="doodle">
+                <label for="doodle">Snickerdoodle</label><br>
+                <input type="radio" id="pb">
+                <label for="pb">Peanut Butter</label><br>
+                <input type="radio" id="mm">
+                <label for="mm">M & M</label><br>
+                <input type="radio" id="sugar">
+                <label for="sugar">Sugar</label><br>
+            </div.b><br>
+            <div.c>
+                <label for="drink">Choose a favorite drink:</label>
+                <select id="drink" required>
+                    <option>Tea</option><br>
+                    <option>Coffee</option><br>
+                    <option>Pop</option>
+                </select>
+            </div.c>
+            <div.d>
+                <p>Choose your favorite candy:</p>
+                <input type="checkbox" id="choco" checked>
+                <label for="choco">Hershey's Chocolate Bar</label><br>
+                <input type="checkbox" id="kk">
+                <label for="kk">Kit Kat</label><br>
+                <input type="checkbox" id="skit">
+                <label for="skit">Skittles</label>
+            </div.d><br><br>
+            <div.e>
+                <label for="why">Describe why these are your favorite items:</label><br>
+                <textarea id="why" style="width:400px; height:200px;" placeholder="Enter your comments here..."></textarea><br>
+                <button type="submit" id="submit">Submit</button>
+            </div.e>
+        </div>
+        
+    </form>
+</body>
+</html>

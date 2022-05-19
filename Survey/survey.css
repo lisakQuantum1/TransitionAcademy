@@ -1,0 +1,34 @@
+body {
+    background-color: rosybrown;
+}
+
+#survey-form {
+    background-color: beige;
+}
+
+h1 {
+    font-size: xx-large;
+    line-height: 1.2;
+    background-color: bisque;
+    text-align: center;
+}
+
+button {
+    border: 2px solid;
+    box-shadow: 5px 10px 20px black;
+}
+div {
+    padding: 20px;
+}
+
+.container {
+    width: 39.5%;
+}
+label {
+    line-height: 20px;
+    margin: 5px;
+}
+
+#persinfo {
+    margin-left: -1.5em;
+}

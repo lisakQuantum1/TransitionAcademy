@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food List Game</title>
+        <link rel="stylesheet" href="myList.css">
+        <script src="myList.js"></script>
+    </head>
+    <body>
+        <h1>Super Food List Game</h1>
+        <div class="myWordTable">
+            <table id="listOfWords">
+                <tr>
+                    <th colspan="4">List of Words</th>
+                </tr>
+                <tr>
+                    <td>Tea</td>
+                    <td>Snickers</td>
+                    <td>Snickerdoodle</td>
+                    <td>Celery</td>
+                </tr>
+                <tr>
+                    <td>Chocolate Chip</td>
+                    <td>Pop</td>
+                    <td>Broccoli</td>
+                    <td>Skittles</td>
+                </tr>
+                <tr>
+                    <td>Carrots</td>
+                    <td>Monster</td>
+                    <td>Gummy Worms</td>
+                    <td>Coffee</td>
+                </tr>
+                <tr>
+                    <td>Starbursts</td>
+                    <td>Eggplant</td>
+                    <td>Beer</td>
+                    <td>Oatmeal Raisin</td>
+                </tr>
+            </table>
+        </div><br>
+        <div class="myFlexBoxRow">
+            <div class="myFlexBoxColumn" id="gameTable">
+                <h2>Place the word in your list:</h2>
+                <form name="myForm">
+                    What word are you adding: <input type="text" name="newWord" value=""><br />
+                    What list will you add word to: <input type="number" name="newNumber" value=""><br />
+                    <input type="button" value="Add to list" onclick="validateAndAdd()">
+                </form>
+            </div>
+            <div class="myFlexBoxColumn" id="gameTable">
+                <h2>Cookies</h2>
+                <table id="myListCookie">
+                </table>
+                <br /> <br />
+                <input type="button" value="Clear the list" onclick="clearListCookie()">
+            </div>
+            <div class="myFlexBoxColumn" id="gameTable">
+                <h2>Drinks</h2>
+                <table id="myListDrink">
+                </table>
+                <br /> <br />
+                <input type="button" value="Clear the list" onclick="clearListDrink()">
+            </div>
+            <div class="myFlexBoxColumn" id="gameTable">
+                <h2>Candy</h2>
+                <table id="myListCandy">
+                </table>
+                <br /> <br />
+                <input type="button" value="Clear the list" onclick="clearListCandy()">
+            </div>
+            <div class="myFlexBoxColumn" id="gameTable">
+                <h2>Vegetables</h2>
+                <table id="myListVeggie">
+                </table>
+                <br /> <br />
+                <input type="button" value="Clear the list" onclick="clearListVeggie()">
+            </div>
+        </div>
+    </body>
+</html>

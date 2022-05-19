@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+
+    <link rel="stylesheet" href="toDoList.css">
+
+    <script src="toDoList.js"></script>
+</head>
+<body>
+    <h1>Super Fancy To-Do List</h1>
+    <div class="myFlexBoxRow">
+        <div class="myFlexBoxColumn">
+            <h2>Please enter a to-do item:</h2>
+            <form name="myForm">
+                Add a to-do item: <input type="text" name="newWord" value=""><br />
+                <input type="button" value="Add To-Do Task" onclick="validateAndAdd()"><br /><br />
+                Mark item as complete: <input type="text" name="completeWord" value=""><br />
+                <input type="button" value="Complete To-Do Task" onclick="completeToDo()"><br /><br />
+                Remove a to-do item: <input type="text" name="removeWord" value=""><br />
+                <input type="button" value="Remove To-Do Task" onclick="removeToDo()">
+            </form>
+        </div>
+        <div class="myFlexBoxColumn">
+            <h2>Current List</h2>
+            <table id="myToDos">
+            </table>
+            <br /> <br />
+            <input type="button" value="Clear the list" onclick="clearToDos()">
+        </div>
+    </div>
+</body>
+</html>

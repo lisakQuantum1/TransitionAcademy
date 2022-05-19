@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check For Palidrome</title>
+
+    <link rel="stylesheet" href="palindrome.css">
+    <script src="palindrome.js"></script>
+</head>
+<body>
+    <h1>Check For Palindromes</h1>
+    <div class="myFlexBoxRow">
+        <div class="myFlexBoxColumn">
+            <h2>Place your palindrome in the form below:</h2>
+            <form name="myForm">
+                Word to check: <input type="text" name="newWord" value=""><br />
+                What list will you add word to: <input type="number" name="newNumber" value=""><br>
+                <input type="button" value="Check and add to list" onclick="validateAndAdd()">
+            </form>
+        </div>
+        <div class="myFlexBoxColumn">
+            <h2>Algorithm 1</h2>
+            <h4>(word: palindrome?)</h4>
+            <table id="myList1">
+            </table>
+            <br /> <br />
+            <input type="button" value="Clear the list" onclick="clearList1()">
+        </div>
+        <div class="myFlexBoxColumn">
+            <h2>Algorithm 2</h2>
+            <h4>(word: palindrome?)</h4>
+            <table id="myList2">
+            </table>
+            <br /> <br />
+            <input type="button" value="Clear the list" onclick="clearList1()">
+        </div>
+    </div>
+</body>
+</html>

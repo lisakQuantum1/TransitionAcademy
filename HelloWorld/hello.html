@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Code Academy Document</title>
+
+    <link rel="stylesheet" href="hello.css">
+
+    <script src="hello.js"></script>
+
+    <script>
+        function myFunction() {
+            var newname = document.getElementById("fname").value;
+            document.getElementById("greeting").innerHTML = "Heyo " + newname + "!";
+        }
+    </script>
+</head>
+<body>
+    <h1>Wassup!</h1>
+
+    <form>
+        <label for="fname">What's yo name?</label>
+        <input type="text" id="fname" name="fname">
+    </form>
+    <button type="button" onclick="myFunction() + greeting()">Submit</button>
+
+    <br>
+    <p id="greeting">  </p>
+    <br>
+</body>
+</html>
