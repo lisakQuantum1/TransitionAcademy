@@ -4,15 +4,23 @@ async function getDogInfo() {
     var dogInfoFun = document.getElementById("learnSelections").value;
     
     if (dogInfoFun == 1) {
+        document.getElementById("lists").innerHTML = "";
+        document.getElementById("images").innerHTML = "";
+
         apiString = apiString + "breeds/list/all";
         alert(apiString); 
   
         var response = await fetch(apiString);
-        document.getElementById("dogInfo").innerHTML = "";
+        document.getElementById("lists").innerHTML = "";
 
         var jsonData = await response.json();
     
-        document.getElementById("dogInfo").innerHTML = JSON.stringify(jsonData);
+        // document.getElementById("lists").innerHTML = JSON.stringify(jsonData, null, 4);
+        var messageJSON = JSON.stringify(jsonData, null, 4);
+
+        document.getElementById("lists").innerHTML = messageJSON;
+
+
 
         // let jsObj = JSON.parse(jsonData);
         // var dogBreeds = document.getElementById("dogInfo");
@@ -28,15 +36,21 @@ async function getDogInfo() {
         // return true;
     }
     else if (dogInfoFun == 2) {
+        document.getElementById("lists").innerHTML = "";
+        document.getElementById("images").innerHTML = "";
+
         apiString = apiString + "breeds/image/random";
         alert(apiString); 
   
         var response = await fetch(apiString);
-        document.getElementById("dogInfo").innerHTML = "";
+        document.getElementById("images").innerHTML = "";
 
         var jsonData = await response.json();
     
-        document.getElementById("dogInfo").innerHTML = JSON.stringify(jsonData);
+        // document.getElementById("images").innerHTML = JSON.stringify(jsonData);
+        JSON.stringify(jsonData);
+        document.getElementById("images").innerHTML = "<img src=" + jsonData.message + ">";
+
 
     
         // function(data) {
@@ -52,6 +66,9 @@ async function getDogInfo() {
 
     }
     else if (dogInfoFun == 3) {
+        document.getElementById("lists").innerHTML = "";
+        document.getElementById("images").innerHTML = "";
+
         apiString = apiString + "breed/" + breed + "/images";
         alert(apiString); 
   
@@ -70,6 +87,9 @@ async function getDogInfo() {
 
     }
     else {
+        document.getElementById("lists").innerHTML = "";
+        document.getElementById("images").innerHTML = "";
+
         apiString = apiString + "breed/" + breed + "/list";
         alert(apiString); 
   

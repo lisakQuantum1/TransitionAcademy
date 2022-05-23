@@ -13,24 +13,32 @@
 </head>
 <body>
     <h1>Ultimate Dog Mania</h1>
-    <div>
-        <p>Are you feeling sad? Has life been treating you... <i>'ruff'</i>? Do you need a pick-me-up? Well you've come to the right place. Please select an option below to enter a world of dog-loving fun.</p>
+    <div class="card">
+        <div class="card-body">
+            <p>Are you feeling sad? Has life been treating you... <i>'ruff'</i>? Do you need a pick-me-up? Well you've come to the right place. Please select an option below to enter a world of dog-loving fun.</p>
+        </div>
     </div>
-    <div>
-        <label for="whatToLearn">Choose a fun option:</label>
-        <select id="learnSelections">
-            <option value=1>List of Dog Breeds</option>
-            <option value=2>Get a Random Dog Image</option>
-            <option value=3>Images by Breed</option>
-            <option value=4>Images by Sub-Breed</option>
-            <!--<option value=5>Browse Breed List</option>-->
-        </select><br /><br />
-        <input type="button" value="Get my dog info!" onclick="getDogInfo()">
+    <div class="card">
+        <div class="card-body">
+            <label for="whatToLearn">Choose a fun option:</label>
+            <select id="learnSelections">
+                <option value=1>List of Dog Breeds</option>
+                <option value=2>Get a Random Dog Image</option>
+                <!-- <option value=3>Images by Breed</option>
+                <option value=4>Images by Sub-Breed</option> -->
+                <!--<option value=5>Browse Breed List</option>-->
+            </select><br /><br />
+            <input type="button" class="btn btn-primary" value="Get my dog info!" onclick="getDogInfo()">
+        </div>
     </div>
-    <div>
-        <h2>Your dog info below:</h2>
-        <p id="dogInfo">
-        </p>
+    <div class="card">
+        <div class="card-body">
+            <h2>Your dog info below:</h2>
+            <div>
+                <ul id="lists"></ul>
+            </div>
+            <div id="images"></div>
+        </div>
     </div>
 </body>
 </html>
