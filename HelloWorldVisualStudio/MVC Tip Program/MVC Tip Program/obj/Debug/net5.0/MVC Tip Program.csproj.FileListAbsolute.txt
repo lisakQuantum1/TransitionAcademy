@@ -1,0 +1,16 @@
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\bin\Debug\net5.0\MVC Tip Program.exe
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\bin\Debug\net5.0\MVC Tip Program.deps.json
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\bin\Debug\net5.0\MVC Tip Program.runtimeconfig.json
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\bin\Debug\net5.0\MVC Tip Program.runtimeconfig.dev.json
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\bin\Debug\net5.0\MVC Tip Program.dll
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\bin\Debug\net5.0\ref\MVC Tip Program.dll
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\bin\Debug\net5.0\MVC Tip Program.pdb
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\obj\Debug\net5.0\MVC Tip Program.csproj.AssemblyReference.cache
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\obj\Debug\net5.0\MVC Tip Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\obj\Debug\net5.0\MVC Tip Program.AssemblyInfoInputs.cache
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\obj\Debug\net5.0\MVC Tip Program.AssemblyInfo.cs
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\obj\Debug\net5.0\MVC Tip Program.csproj.CoreCompileInputs.cache
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\obj\Debug\net5.0\MVC Tip Program.dll
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\obj\Debug\net5.0\ref\MVC Tip Program.dll
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\obj\Debug\net5.0\MVC Tip Program.pdb
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\MVC Tip Program\MVC Tip Program\obj\Debug\net5.0\MVC Tip Program.genruntimeconfig.cache

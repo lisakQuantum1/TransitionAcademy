@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6d655b92-cca2-43f6-9ed0-1b8aa6fe8126": {
+      "ProjectGuid": "6d655b92-cca2-43f6-9ed0-1b8aa6fe8126",
+      "DisplayName": "MVC Tip Program",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

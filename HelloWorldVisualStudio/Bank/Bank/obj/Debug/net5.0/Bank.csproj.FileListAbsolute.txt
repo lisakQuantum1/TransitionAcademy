@@ -1,0 +1,16 @@
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\bin\Debug\net5.0\Bank.exe
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\bin\Debug\net5.0\Bank.deps.json
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\bin\Debug\net5.0\Bank.runtimeconfig.json
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\bin\Debug\net5.0\Bank.runtimeconfig.dev.json
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\bin\Debug\net5.0\Bank.dll
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\bin\Debug\net5.0\ref\Bank.dll
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\bin\Debug\net5.0\Bank.pdb
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\obj\Debug\net5.0\Bank.csproj.AssemblyReference.cache
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\obj\Debug\net5.0\Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\obj\Debug\net5.0\Bank.AssemblyInfoInputs.cache
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\obj\Debug\net5.0\Bank.AssemblyInfo.cs
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\obj\Debug\net5.0\Bank.csproj.CoreCompileInputs.cache
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\obj\Debug\net5.0\Bank.dll
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\obj\Debug\net5.0\ref\Bank.dll
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\obj\Debug\net5.0\Bank.pdb
+C:\Users\MLisak\Desktop\TransitionAcademy\HelloWorldVisualStudio\Bank\Bank\obj\Debug\net5.0\Bank.genruntimeconfig.cache
