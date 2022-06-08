@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lion King Characters</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <h1>Lion King Characters</h1>
+    <h3>Add Characters</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addCharacter()">
+        <input type="text" id="add-name" placeholder="Add new character">
+        <input type="submit" value="Add">
+    </form>
+
+    <div id="editList">
+        <h3>Edit List</h3>
+        <form action="javascript:void(0);" onsubmit="updateCharacter()">
+            <input type="hidden" id="edit-id">
+            <input type="checkbox" id="edit-isVillian">
+            <input type="checkbox" id="edit-isMainCharacter">
+            <input type="checkbox" id="edit-isSideCharacter">
+            <input type="text" id="edit-name">
+            <input type="submit" value="Save">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Character Name</th>
+            <th>Is a Villian?</th>
+            <th>Is a Main Character?</th>
+            <th>Is a Side Character?</th>
+            <th></th>
+            <th></th>
+        </tr>
+
+        <tbody id="characters"></tbody>
+    </table>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getCharacters();
+    </script>
+</body>
+</html>
